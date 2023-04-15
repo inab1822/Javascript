@@ -1,0 +1,65 @@
+*{
+    list-style: none;
+}
+.hidden {
+    display: none;
+}
+
+
+img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left:0px;
+    top:0px;
+    right:0px;
+    bottom: 0px;
+    z-index: -1;
+    opacity: 80%;
+}
+
+#userInterface{
+    background-color: white;
+    width: 40%;
+    opacity: 70%;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50%;
+    border-radius: 10px;
+    padding-top: 10px;
+    
+}
+#userInterface #todo-form{
+    padding-top: 10px;
+}
+#todo-list{
+    padding: 0px;
+}
+
+#clock{
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translateX(-50%);
+    font-size: 150px;
+}
+
+#quote{
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    transform: translateX(-50%);
+    font-weight: bold;
+    color: white;
+}
+
+#weather{
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translateX(-50%);
+    font-weight: bold;
+}
